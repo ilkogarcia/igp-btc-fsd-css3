@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+}
+
+table {
+	background-color: blue;   /* Fondo, debe ser más claro que el borde */
+	border: 5px outset white;  /* Grosor del Borde */  /* Color del Borde */
+	color: black;  /* Color del texto */
+}
+
+th {
+    background-color: darkslategray;
+    color: aquamarine;
+    padding: 5px;
+    text-align: center;  /* Alineación del texto */
+}
+
+td {
+    padding: 5px;
+    text-align: left;  /* Alineación del texto */
+    margin: 5px;
+}
+
+.fila-impar {
+    background-color: aquamarine;   /* Fondo, debe ser más claro que el borde */
+	border: 2px inset white;  /* Grosor del Borde */  /* Color del Borde */
+
+}
+
+.fila-par {
+    background-color: aqua;   /* Fondo, debe ser más claro que el borde */
+	border: 2px inset white;  /* Grosor del Borde */  /* Color del Borde */
+}
