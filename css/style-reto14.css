@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+table {
+	background-color: white;   /* Fondo, debe ser más claro que el borde */
+	border: 2px outset darkgray;  /* Grosor del Borde */  /* Color del Borde */
+	color: black;  /* Color del texto */
+    width: 100%;
+}
+
+th {
+    background-color: whitesmoke;
+	border: 1px inset darkgray;  /* Grosor del Borde */  /* Color del Borde */
+    padding: 5px;
+    text-align: center;  /* Alineación del texto */
+    font-weight: bold;
+}
+
+td {
+    background-color: lightgoldenrodyellow;   /* Fondo, debe ser más claro que el borde */
+	border: 1px inset darkgray;  /* Grosor del Borde */  /* Color del Borde */
+    padding: 5px;
+    text-align: center;  /* Alineación del texto */
+    margin: 5px;
+}
+
+#container {
+    /* Contenedor general */
+    background-image: url("../img/derek-oyen-3Xd5j9-drDA-unsplash.jpg");
+    height: 720px;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    /* Div para colocar la tabla */
+    width: 80%;
+}
