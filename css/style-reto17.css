@@ -1,0 +1,118 @@
+html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    min-height: 100%;
+    background-image: url(../img/ac.jpg);
+    background-repeat: repeat;
+}
+
+div {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: none;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+#boxA {
+    background-image: url(../img/back_mantel.jpg);
+    background-repeat: repeat;
+}
+
+#boxB {
+    border: none;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-image: url(../img/back_mantel.jpg);
+    background-repeat: repeat;
+}
+
+#boxC {
+    background-image: url(../img/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#boxD {
+    background-image: url(../img/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: white;
+}
+
+#boxE {
+    background-image: url(../img/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+
+#boxF {
+    background-image: url(../img/dh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: white;
+}
+
+#boxG {
+    background-image: url(../img/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: white;
+}
+
+#boxH {
+    background-image: url(../img/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    background-color: white;
+}
+
+#boxI {
+    background: rgb(81,219,5);
+    background: linear-gradient(90deg, rgba(81,219,5,1) 35%, rgba(63,133,0,1) 100%);
+}
+
+#boxJ {s
+    background: rgb(236,110,0);
+    background: linear-gradient(180deg, rgba(236,110,0,1) 35%, rgba(143,76,14,1) 100%);
+}
+
+#boxK {
+    background: rgb(162,190,112);
+    background: linear-gradient(180deg, rgba(162,190,112,1) 35%, rgba(14,143,89,1) 100%);
+}
+
+#boxL {
+    background: rgb(196,223,148);
+    background: linear-gradient(180deg, rgba(196,223,148,1) 35%, rgba(2,170,99,1) 100%);
+    opacity: 60%;
+}
+
+.box2 {
+    background-color: burlywood; 
+    background-color: grad;
+    opacity: 50%;
+}
