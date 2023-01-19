@@ -13,22 +13,13 @@ body {
 }
 
 div {
-    border: 3px solid black;
     width: 300px;
     height: 300px;
     margin: 20px;
+    border: 3px solid black;
     text-align: center;
-    vertical-align: middle;
-}
-
-#container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border: none;
-    min-width: 100%;
-    min-height: 100%;
-    margin: 0;
+    float: left;
+    padding: 20px;
 }
 
 #boxA {
@@ -37,12 +28,8 @@ div {
 }
 
 #boxB {
-    border: none;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
     background-image: url(../img/back_mantel.jpg);
-    background-clip:content-box;
+    background-clip: content-box;
 }
 
 #boxC {
