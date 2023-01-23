@@ -1,0 +1,24 @@
+body {
+    margin: 20px;
+}
+
+/* Estilo aplicado a toda la tabla */
+table {
+	border: 1px outset #515151;
+	color: black;
+}
+
+/* Estilo de las celdas en la fila de encabezado */
+th {
+    border: 1px outset #515151;
+}
+
+/* Estilo del resto de celdas de contenido */
+td {
+    border: 1px outset #515151;
+}
+
+/* Clase para cambiar el estilo a negrita y resaltar una fila cualquiera */
+.fila-negrita {
+    font-weight: bold;
+}
